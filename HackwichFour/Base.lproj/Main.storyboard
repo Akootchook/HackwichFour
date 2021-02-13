@@ -15,6 +15,15 @@
                     <view key="view" contentMode="scaleToFill" id="jij-9A-yNc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4T-BV-CH9">
+                                <rect key="frame" x="152" y="208" width="110" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Md1-xr-j8Z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -22,23 +31,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fAc-6H-lZo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1267" y="-238"/>
+            <point key="canvasLocation" x="1266.6666666666667" y="-374.33035714285711"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ehp-IC-Zty">
             <objects>
-                <viewController id="c20-6a-wBk" sceneMemberID="viewController">
+                <viewController id="c20-6a-wBk" customClass="ViewController" customModule="HackwichFour" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hYU-Cu-t8s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbI-4N-QVY">
+                                <rect key="frame" x="160" y="183" width="105" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="uBz-M6-BQF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qob-EP-wAs"/>
+                    <connections>
+                        <outlet property="firstTabLabel" destination="hYU-Cu-t8s" id="Ngf-Bj-LDM"/>
+                        <outlet property="firtTabLabel" destination="JbI-4N-QVY" id="Hev-sa-OhD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ct5-rc-ErG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1267" y="-1116"/>
+            <point key="canvasLocation" x="1266.6666666666667" y="-1116.2946428571429"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="4i2-2b-4OM">
@@ -94,7 +116,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1XQ-GD-GnX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="421.73913043478262" y="-238.39285714285714"/>
+            <point key="canvasLocation" x="386" y="-374"/>
         </scene>
     </scenes>
     <resources>
